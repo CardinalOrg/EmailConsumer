@@ -1,0 +1,7 @@
+---
+applications:
+- name: EmailConsumer
+  memory: 768M
+  path: target/EmailConsumer-0.0.1-SNAPSHOT.war
+  buildpack: java_buildpack
+  instances: 1
